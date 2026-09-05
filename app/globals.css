@@ -1,0 +1,179 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --radius: 0.9rem;
+
+    /* Light theme — preserving exact Lovable OKLCH palette converted to HSL */
+    --background: 48 33% 98%;
+    --foreground: 162 26% 12%;
+    --card: 0 0% 100%;
+    --card-foreground: 162 26% 12%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 162 26% 12%;
+    --primary: 167 34% 30%;
+    --primary-foreground: 150 30% 97%;
+    --secondary: 88 18% 93%;
+    --secondary-foreground: 165 18% 17%;
+    --muted: 90 14% 94%;
+    --muted-foreground: 160 12% 33%;
+    --accent: 82 48% 91%;
+    --accent-foreground: 75 27% 19%;
+    --destructive: 13 62% 34%;
+    --destructive-foreground: 90 20% 97%;
+    --success: 154 41% 34%;
+    --success-foreground: 150 20% 97%;
+    --warning: 52 63% 47%;
+    --warning-foreground: 60 30% 16%;
+    --info: 225 37% 36%;
+    --info-foreground: 225 20% 97%;
+    --highlight: 283 38% 34%;
+    --highlight-foreground: 283 20% 97%;
+    --border: 90 14% 88%;
+    --input: 90 14% 88%;
+    --ring: 167 34% 30%;
+
+    /* Chart */
+    --chart-1: 167 34% 30%;
+    --chart-2: 52 63% 47%;
+    --chart-3: 225 37% 36%;
+    --chart-4: 13 62% 40%;
+    --chart-5: 283 38% 34%;
+
+    /* Sidebar */
+    --sidebar: 90 14% 97%;
+    --sidebar-foreground: 162 26% 12%;
+    --sidebar-primary: 167 34% 30%;
+    --sidebar-primary-foreground: 150 30% 97%;
+    --sidebar-accent: 88 18% 93%;
+    --sidebar-accent-foreground: 165 18% 17%;
+    --sidebar-border: 90 14% 88%;
+    --sidebar-ring: 167 34% 30%;
+  }
+
+  .dark {
+    --background: 175 21% 10%;
+    --foreground: 90 12% 95%;
+    --card: 175 22% 13%;
+    --card-foreground: 90 12% 95%;
+    --popover: 175 22% 13%;
+    --popover-foreground: 90 12% 95%;
+    --primary: 166 38% 56%;
+    --primary-foreground: 175 20% 12%;
+    --secondary: 175 14% 16%;
+    --secondary-foreground: 90 12% 95%;
+    --muted: 175 16% 15%;
+    --muted-foreground: 150 8% 45%;
+    --accent: 82 20% 18%;
+    --accent-foreground: 82 40% 90%;
+    --destructive: 13 65% 46%;
+    --destructive-foreground: 90 20% 97%;
+    --success: 155 50% 47%;
+    --success-foreground: 155 20% 12%;
+    --warning: 55 56% 54%;
+    --warning-foreground: 60 25% 14%;
+    --info: 225 42% 48%;
+    --info-foreground: 225 20% 12%;
+    --highlight: 283 44% 48%;
+    --highlight-foreground: 283 20% 12%;
+    --border: 0 0% 100% / 10%;
+    --input: 0 0% 100% / 14%;
+    --ring: 166 38% 56%;
+
+    --chart-1: 166 38% 56%;
+    --chart-2: 55 56% 54%;
+    --chart-3: 225 42% 48%;
+    --chart-4: 13 65% 46%;
+    --chart-5: 283 44% 48%;
+
+    --sidebar: 175 20% 11%;
+    --sidebar-foreground: 90 12% 95%;
+    --sidebar-primary: 166 38% 56%;
+    --sidebar-primary-foreground: 175 20% 12%;
+    --sidebar-accent: 175 16% 15%;
+    --sidebar-accent-foreground: 90 12% 95%;
+    --sidebar-border: 0 0% 100% / 10%;
+    --sidebar-ring: 166 38% 56%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3 {
+    letter-spacing: -0.02em;
+  }
+}
+
+@layer utilities {
+  /* Glassmorphism — exact from Lovable */
+  .glass {
+    background: color-mix(in srgb, hsl(var(--background)) 72%, transparent);
+    backdrop-filter: blur(14px) saturate(150%);
+  }
+
+  /* Hero gradient surface */
+  .surface-hero {
+    background-image:
+      radial-gradient(120% 120% at 15% 0%, hsl(var(--primary) / 14%) 0%, transparent 55%),
+      radial-gradient(90% 90% at 95% 10%, hsl(var(--accent) / 70%) 0%, transparent 60%);
+  }
+
+  /* Gradient text */
+  .gradient-text {
+    background-image: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--highlight) / 80%) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  /* Shadows */
+  .shadow-soft {
+    box-shadow: 0 1px 2px hsl(var(--foreground) / 4%), 0 8px 24px -12px hsl(var(--foreground) / 14%);
+  }
+
+  .shadow-lift {
+    box-shadow: 0 2px 4px hsl(var(--foreground) / 5%), 0 24px 48px -24px hsl(var(--foreground) / 28%);
+  }
+
+  /* Card hover animation — exact from Lovable */
+  .card-hover {
+    transition: transform 220ms cubic-bezier(0.22, 1, 0.36, 1),
+      box-shadow 220ms cubic-bezier(0.22, 1, 0.36, 1),
+      border-color 220ms ease;
+  }
+
+  .card-hover:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 2px 4px hsl(var(--foreground) / 5%), 0 24px 48px -24px hsl(var(--foreground) / 28%);
+    border-color: hsl(var(--primary) / 35%);
+  }
+
+  /* Container */
+  .container-page {
+    margin-inline: auto;
+    width: 100%;
+    max-width: 84rem;
+    padding-inline: 1rem;
+  }
+
+  @media (min-width: 768px) {
+    .container-page {
+      padding-inline: 1.5rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .container-page {
+      padding-inline: 2rem;
+    }
+  }
+}

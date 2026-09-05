@@ -1,0 +1,8 @@
+<svg width="180" height="48" viewBox="0 0 180 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M24 6L6 15L24 24L42 15L24 6Z" fill="#000000" />
+  <path d="M6 15V33L24 42V24L6 15Z" fill="#000000" opacity="0.8" />
+  <path d="M42 15V33L24 42V24L42 15Z" fill="#000000" opacity="0.6" />
+  
+  <text x="56" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="24" letter-spacing="-0.03em" fill="#000000">Texora</text>
+
+</svg>

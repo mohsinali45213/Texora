@@ -1,0 +1,8 @@
+<svg width="100%" height="100%" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Woven threads pattern forming a 'T' -->
+  <path d="M20 50C20 33.4315 33.4315 20 50 20H150C166.569 20 180 33.4315 180 50V50C180 66.5685 166.569 80 150 80H120V150C120 166.569 106.569 180 90 180V180C73.4315 180 60 166.569 60 150V80H50C33.4315 80 20 66.5685 20 50V50Z" fill="currentColor"/>
+  
+  <!-- Cutout line to simulate overlapping warp/weft of fabric -->
+  <path d="M60 80L140 20" stroke="var(--background)" stroke-width="12" stroke-linecap="round"/>
+  <path d="M80 80L160 20" stroke="var(--background)" stroke-width="12" stroke-linecap="round" stroke-opacity="0.5"/>
+</svg>

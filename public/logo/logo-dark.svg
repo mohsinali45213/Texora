@@ -1,0 +1,34 @@
+<svg width="180" height="48" viewBox="0 0 180 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  
+  <!-- Top Layer (Lightest) -->
+  <path d="M24 6L6 15L24 24L42 15L24 6Z" fill="url(#gradTop)" />
+  <!-- Left Layer (Darkest) -->
+  <path d="M6 15V33L24 42V24L6 15Z" fill="url(#gradLeft)" />
+  <!-- Right Layer (Midtone) -->
+  <path d="M42 15V33L24 42V24L42 15Z" fill="url(#gradRight)" />
+  
+  <!-- Fabric Fold Accents (Lines to give textile/weaving feel) -->
+  <path d="M6 21L24 30L42 21" stroke="white" stroke-width="1.5" stroke-opacity="0.15" stroke-linejoin="round" fill="none" />
+  <path d="M6 27L24 36L42 27" stroke="white" stroke-width="1.5" stroke-opacity="0.15" stroke-linejoin="round" fill="none" />
+  <path d="M24 24V42" stroke="white" stroke-width="2" stroke-opacity="0.2" fill="none" />
+
+  
+  <text x="56" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="24" letter-spacing="-0.03em" fill="#FAFAF9">Texora</text>
+
+  
+  <defs>
+    <linearGradient id="gradTop" x1="6" y1="6" x2="42" y2="24" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4CA390"/>
+      <stop offset="1" stop-color="#32665B"/>
+    </linearGradient>
+    <linearGradient id="gradLeft" x1="6" y1="15" x2="24" y2="42" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1C3A33"/>
+      <stop offset="1" stop-color="#122521"/>
+    </linearGradient>
+    <linearGradient id="gradRight" x1="24" y1="24" x2="42" y2="42" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#32665B"/>
+      <stop offset="1" stop-color="#1C3A33"/>
+    </linearGradient>
+  </defs>
+
+</svg>

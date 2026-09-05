@@ -1,0 +1,8 @@
+<svg viewBox="0 0 800 240" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(40, 40)">
+    <rect x="0" y="0" width="160" height="48" rx="24" fill="hsl(167, 34%, 30%)" opacity="0.9" />
+    <rect x="56" y="56" width="48" height="104" rx="24" fill="hsl(167, 34%, 30%)" />
+    <circle cx="136" cy="136" r="24" fill="hsl(167, 34%, 30%)" opacity="0.6" />
+  </g>
+  <text x="240" y="165" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="700" font-size="110" letter-spacing="-0.03em" fill="hsl(162, 26%, 12%)">Texora</text>
+</svg>
