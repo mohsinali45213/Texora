@@ -20,17 +20,13 @@
 
 🚀 **Live Demo:** [https://texora-five.vercel.app/](https://texora-five.vercel.app/)
 
-| Homepage Showcase | Navigation & Search |
-| :---: | :---: |
-| ![Homepage](https://raw.githubusercontent.com/mohsinali45213/Texora/main/public/images/homepage.png) | ![Navbar](https://raw.githubusercontent.com/mohsinali45213/Texora/main/public/images/navbar.png) |
+| Homepage Showcase | Navigation & Search | Fabric Categories |
+| :---: | :---: | :---: |
+| ![Homepage](https://raw.githubusercontent.com/mohsinali45213/Texora/main/public/images/homepage.png) | ![Navbar](https://raw.githubusercontent.com/mohsinali45213/Texora/main/public/images/navbar.png) | ![Categories](https://raw.githubusercontent.com/mohsinali45213/Texora/main/public/images/categories.png) |
 
-| Fabric Categories | Fabric Product Grid |
-| :---: | :---: |
-| ![Categories](https://raw.githubusercontent.com/mohsinali45213/Texora/main/public/images/categories.png) | ![Product Grid](https://raw.githubusercontent.com/mohsinali45213/Texora/main/public/images/productcard.png) |
-
-| Product Specifications & GSM Details | User & Supplier Onboarding |
-| :---: | :---: |
-| ![Product Detail](https://raw.githubusercontent.com/mohsinali45213/Texora/main/public/images/productdetail.png) | ![Registration](https://raw.githubusercontent.com/mohsinali45213/Texora/main/public/images/registration.png) |
+| Fabric Product Grid | Specifications & GSM | User & Supplier Onboarding |
+| :---: | :---: | :---: |
+| ![Product Grid](https://raw.githubusercontent.com/mohsinali45213/Texora/main/public/images/productcard.png) | ![Product Detail](https://raw.githubusercontent.com/mohsinali45213/Texora/main/public/images/productdetail.png) | ![Registration](https://raw.githubusercontent.com/mohsinali45213/Texora/main/public/images/registration.png) |
 
 ---
 
