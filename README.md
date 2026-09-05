@@ -20,13 +20,17 @@
 
 🚀 **Live Demo:** [https://texora-five.vercel.app/](https://texora-five.vercel.app/)
 
-| Texora Brand Logo | Cotton Fabric Catalog |
+| Homepage Showcase | Navigation & Search |
 | :---: | :---: |
-| ![Texora Logo](https://raw.githubusercontent.com/mohsinali45213/Texora/main/public/logo/texora-logo-full.png) | ![Cotton Fabric](https://raw.githubusercontent.com/mohsinali45213/Texora/main/public/fabric-cotton.jpg) |
+| ![Homepage](https://raw.githubusercontent.com/mohsinali45213/Texora/main/public/images/homepage.png) | ![Navbar](https://raw.githubusercontent.com/mohsinali45213/Texora/main/public/images/navbar.png) |
 
-| Denim Fabric Showcase | Silk Fabric Showcase |
+| Fabric Categories | Fabric Product Grid |
 | :---: | :---: |
-| ![Denim Fabric](https://raw.githubusercontent.com/mohsinali45213/Texora/main/public/fabric-denim.jpg) | ![Silk Fabric](https://raw.githubusercontent.com/mohsinali45213/Texora/main/public/fabric-silk.jpg) |
+| ![Categories](https://raw.githubusercontent.com/mohsinali45213/Texora/main/public/images/categories.png) | ![Product Grid](https://raw.githubusercontent.com/mohsinali45213/Texora/main/public/images/productcard.png) |
+
+| Product Specifications & GSM Details | User & Supplier Onboarding |
+| :---: | :---: |
+| ![Product Detail](https://raw.githubusercontent.com/mohsinali45213/Texora/main/public/images/productdetail.png) | ![Registration](https://raw.githubusercontent.com/mohsinali45213/Texora/main/public/images/registration.png) |
 
 ---
 
