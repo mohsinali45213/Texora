@@ -22,11 +22,11 @@
 
 | Homepage Showcase | Navigation & Search | Fabric Categories |
 | :---: | :---: | :---: |
-| <img src="https://raw.githubusercontent.com/mohsinali45213/Texora/main/public/images/homepage.png" height="320" alt="Homepage" /> | <img src="https://raw.githubusercontent.com/mohsinali45213/Texora/main/public/images/navbar.png" height="320" alt="Navbar" /> | <img src="https://raw.githubusercontent.com/mohsinali45213/Texora/main/public/images/categories.png" height="320" alt="Categories" /> |
+| ![Homepage](https://raw.githubusercontent.com/mohsinali45213/Texora/main/public/images/homepage.png) | ![Navbar](https://raw.githubusercontent.com/mohsinali45213/Texora/main/public/images/navbar.png) | ![Categories](https://raw.githubusercontent.com/mohsinali45213/Texora/main/public/images/categories.png) |
 
 | Fabric Product Grid | Specifications & GSM | User & Supplier Onboarding |
 | :---: | :---: | :---: |
-| <img src="https://raw.githubusercontent.com/mohsinali45213/Texora/main/public/images/productcard.png" height="320" alt="Product Grid" /> | <img src="https://raw.githubusercontent.com/mohsinali45213/Texora/main/public/images/productdetail.png" height="320" alt="Product Detail" /> | <img src="https://raw.githubusercontent.com/mohsinali45213/Texora/main/public/images/registration.png" height="320" alt="Registration" /> |
+| ![Product Grid](https://raw.githubusercontent.com/mohsinali45213/Texora/main/public/images/productcard.png) | ![Product Detail](https://raw.githubusercontent.com/mohsinali45213/Texora/main/public/images/productdetail.png) | ![Registration](https://raw.githubusercontent.com/mohsinali45213/Texora/main/public/images/registration.png) |
 
 ---
 
