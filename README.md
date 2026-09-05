@@ -4,7 +4,7 @@
 
 > A full-stack multi-vendor Textile & Fabric Marketplace platform built with Next.js 14, TypeScript, NextAuth v5, MongoDB Atlas, and AI-powered fabric intelligence.
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-texora--marketplace.vercel.app-brightgreen?style=for-the-badge&logo=vercel)](https://texora-marketplace.vercel.app)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-texora--five.vercel.app-brightgreen?style=for-the-badge&logo=vercel)](https://texora-five.vercel.app/)
 [![Next.js](https://img.shields.io/badge/Next.js-14.2-000000?style=for-the-badge&logo=nextdotjs)](https://nextjs.org)
 [![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react)](https://react.dev)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.6-3178C6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org)
@@ -18,7 +18,7 @@
 
 ## 🌐 Demo & Screenshots
 
-🚀 **Live Demo:** [https://texora-marketplace.vercel.app](https://texora-marketplace.vercel.app)
+🚀 **Live Demo:** [https://texora-five.vercel.app/](https://texora-five.vercel.app/)
 
 | Texora Brand Logo | Cotton Fabric Catalog |
 | :---: | :---: |
@@ -200,4 +200,4 @@ This project is licensed under the [MIT License](LICENSE).
 **Mohsin Ali**
 
 - **GitHub:** [@mohsinali45213](https://github.com/mohsinali45213)
-- **Live Demo:** [texora-marketplace.vercel.app](https://texora-marketplace.vercel.app)
+- **Live Demo:** [texora-five.vercel.app](https://texora-five.vercel.app/)
